@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="erroIdade">Invalid Age</string>
+    <string name="hint_nome">"enter your name "</string>
+    <string name="nome">Name</string>
+    <string name="fechar">Close</string>
+    <string name="idade">Age</string>
+    <string name="hint_idade">"enter your age "</string>
+    <string name="verificar">check</string>
+    <string name="erro_nome">"invalid name "</string>
+    <string name="fechando_app">closing app</string>
+    <string name="sim">yes</string>
+    <string name="nao">no</string>
+    <string name="realmente_fechar_app">"Do you really want to close the APP? "</string>
+</resources>

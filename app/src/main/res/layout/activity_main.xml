@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ccc"
+    android:padding="16dp"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textSize="22sp"
+        android:textColor="#333"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=   "@string/hint_nome"
+        android:id="@+id/editNome"
+        style="@style/editText"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idade"
+        android:textSize="22sp"
+        android:textColor="#333"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_idade"
+        android:id="@+id/editIdade"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="110dp"
+        style="@style/editText"
+        android:inputType="number"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:text="@string/verificar"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="verificar"
+        android:layout_margin="5dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/fechar"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:id="@+id/btnFechar"
+        >
+    </Button>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/telaResultado"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutResultado">
+    </LinearLayout>
+
+</LinearLayout>
+
